@@ -32,6 +32,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="GameOver.cpp" />
+		<Unit filename="GameOver.h" />
+		<Unit filename="Global.cpp" />
+		<Unit filename="Global.h" />
+		<Unit filename="Graphics.cpp" />
+		<Unit filename="Graphics.h" />
+		<Unit filename="Intro.cpp" />
+		<Unit filename="Intro.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Play.cpp" />
+		<Unit filename="Play.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
