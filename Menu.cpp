@@ -32,6 +32,8 @@ void renderMenu(){
     }
     SDL_Texture* playButtonTexture = renderText("START", textColor);
     SDL_RenderCopy(renderer, playButtonTexture, NULL, &playButtonRect);
+    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+    SDL_RenderDrawRect(renderer, &playButtonRect);
     SDL_RenderPresent(renderer);
 }
 

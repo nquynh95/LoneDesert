@@ -43,12 +43,15 @@ extern int bushCooldown;
 
 extern TTF_Font* font;
 extern SDL_Color textColor;
+
 extern SDL_Texture* playButtonTexture;
 extern SDL_Rect playButtonRect;
 
 extern SDL_Rect restartButtonRect;
 extern SDL_Texture* restartButtonTexture;
 
+extern SDL_Rect homeButtonRect;
+extern SDL_Texture* homeButtonTexture;
 
 #endif // GLOBAL_H
 

@@ -30,10 +30,13 @@ int bushSpeed = 4;
 int bushCooldown = 0;
 
 TTF_Font* font = NULL;
-SDL_Color textColor = {255, 0, 0, 255};
+SDL_Color textColor = {255, 255, 255, 255};
+
 SDL_Texture* playButtonTexture = NULL;
 SDL_Rect playButtonRect = {SCREEN_WIDTH/2 - 75, 550, 150, 80};
 
 SDL_Rect restartButtonRect = {SCREEN_WIDTH/2 - 100, SCREEN_HEIGHT/2 + 80, 200, 60};
 SDL_Texture* restartButtonTexture = NULL;
 
+SDL_Rect homeButtonRect = {SCREEN_WIDTH/2 - 100, SCREEN_HEIGHT / 2 + 160, 200, 60};
+SDL_Texture* homeButtonTexture = NULL;

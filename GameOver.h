@@ -3,6 +3,8 @@
 
 #include <SDL.h>
 
+using namespace std;
+
 void eGameOver(bool& quit, SDL_Event& e);
 void renderGameOver();
 
