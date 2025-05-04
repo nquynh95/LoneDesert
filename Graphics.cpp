@@ -21,6 +21,7 @@ void loadAssets(){
     roadTexture = loadTexture("road.png");
     obsTexture = loadTexture("obs.png");
     bushTexture = loadTexture("bush.png");
+    re_hoTexture = loadTexture("Re_Ho.png");
 
     for (int i = 0; i < NUM_CARS;i++){
         string path = "car" + to_string(i + 1) + ".png";

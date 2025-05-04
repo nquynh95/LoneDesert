@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1745325894 source:d:\ltnc\lonedesert\graphics.cpp
+1746341170 source:d:\ltnc\lonedesert\graphics.cpp
 	"global.h"
 	"graphics.h"
 
-1745330021 d:\ltnc\lonedesert\global.h
+1746287316 d:\ltnc\lonedesert\global.h
 	<SDL.h>
 	<SDL_ttf.h>
 
@@ -13,15 +13,15 @@
 	<SDL_image.h>
 	<string>
 
-1745329676 source:d:\ltnc\lonedesert\intro.cpp
+1746290073 source:d:\ltnc\lonedesert\intro.cpp
 	"intro.h"
 	"global.h"
 	"graphics.h"
 
-1745325894 d:\ltnc\lonedesert\intro.h
+1746287776 d:\ltnc\lonedesert\intro.h
 	<SDL_ttf.h>
 
-1745325894 source:d:\ltnc\lonedesert\main.cpp
+1746340093 source:d:\ltnc\lonedesert\main.cpp
 	<iostream>
 	"global.h"
 	"graphics.h"
@@ -30,31 +30,31 @@
 	"play.h"
 	"gameover.h"
 
-1745325894 d:\ltnc\lonedesert\menu.h
+1746279563 d:\ltnc\lonedesert\menu.h
 	<SDL_ttf.h>
 
-1745325705 d:\ltnc\lonedesert\play.h
+1746282104 d:\ltnc\lonedesert\play.h
 	<SDL.h>
 	<string>
 
-1745328855 d:\ltnc\lonedesert\gameover.h
+1746284901 d:\ltnc\lonedesert\gameover.h
 	<SDL.h>
 
-1745329156 source:d:\ltnc\lonedesert\menu.cpp
+1746290183 source:d:\ltnc\lonedesert\menu.cpp
 	"menu.h"
 	"global.h"
 	"graphics.h"
 	"play.h"
 
-1745325894 source:d:\ltnc\lonedesert\play.cpp
+1746341476 source:d:\ltnc\lonedesert\play.cpp
 	"play.h"
 	"global.h"
 	"graphics.h"
 
-1745330021 source:d:\ltnc\lonedesert\global.cpp
+1746290408 source:d:\ltnc\lonedesert\global.cpp
 	"global.h"
 
-1745329654 source:d:\ltnc\lonedesert\gameover.cpp
+1746290126 source:d:\ltnc\lonedesert\gameover.cpp
 	"gameover.h"
 	"global.h"
 	"graphics.h"

@@ -7,14 +7,13 @@
 void ePlay(SDL_Event& e);
 void updateObs();
 void updateBush();
-
+void updateCar();
+void updateGame();
 void renderGame();
 void renderDistance();
-void GameOver(bool& quit, SDL_Event& e);
-
-bool checkCollision(SDL_Rect a, SDL_Rect b);
-
 void restartGame();
+bool checkCollision(SDL_Rect a, SDL_Rect b);
+bool checkGame();
 
 #endif // PLAY_H
 

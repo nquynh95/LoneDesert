@@ -3,18 +3,18 @@
 #include "graphics.h"
 
 void eIntro(SDL_Event& e){
-    if (e.type == SDL_MOUSEBUTTONDOWN) gameState = MENU;
+    if (e.type == SDL_MOUSEBUTTONDOWN){
+        int x = e.button.x, y = e.button.y;
+        //nhấn play để vào menu
+        if (x >= playRect.x && x <= playRect.x + playRect.w &&
+            y >= playRect.y && y <= playRect.y + playRect.h)
+            gameState = MENU;
+    }
 }
 
 void renderIntro(){
     SDL_RenderClear(renderer);
     SDL_RenderCopy(renderer, introTexture, NULL, NULL);
-    SDL_Texture* play = renderText("PLAY", textColor);
-    SDL_Rect playRect = {SCREEN_WIDTH/2 - 150, 500, 300, 60};
-    SDL_RenderCopy(renderer, play, NULL, &playRect);
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-    SDL_RenderDrawRect(renderer, &playRect);
     SDL_RenderPresent(renderer);
-    SDL_DestroyTexture(play);
 }
 

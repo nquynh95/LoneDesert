@@ -5,6 +5,7 @@
 
 using namespace std;
 
+void gameOver(bool& quit, SDL_Event& e);
 void eGameOver(bool& quit, SDL_Event& e);
 void renderGameOver();
 
